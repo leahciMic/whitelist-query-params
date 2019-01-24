@@ -1,6 +1,6 @@
-# Whitelist query params
+# Whitelist query params [![Build Status](https://travis-ci.org/leahciMic/whitelist-query-params.svg?branch=master)](https://travis-ci.org/leahciMic/set-query-params)
 
-> Filter url query paramaters with a whitelist
+> Filter url query parameters with a whitelist
 
 ## Table of Contents
 
@@ -20,7 +20,14 @@ yarn add whitelist-query-params
 
 ## Usage
 
-Laziness has prevented usage instructions from being documented.
+```js
+
+import whitelistQueryParams from 'whitelist-query-params';
+
+const url = whitelistQueryParams('http://www.example.org/?foo=bar&baz=qux', ['foo']);
+
+console.log(url); // http://www.example.org/?foo=bar
+```
 
 ## Contributing
 
