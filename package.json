@@ -1,0 +1,36 @@
+{
+  "name": "whitelist-query-params",
+  "version": "0.0.1",
+  "author": {
+    "name": "Michael Leaney",
+    "email": "leaney.michael@gmail.com"
+  },
+  "description": "Filter url query paramaters with a whitelist",
+  "scripts": {
+    "start": "node -r esm src/main.js",
+    "debug": "node -r esm --inspect-brk=9339 src/main.js",
+    "test": "npx jest"
+  },
+  "main": "src/index.js",
+  "module": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leahciMic/whitelist-query-params"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "esm": "^3.1.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.16.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
