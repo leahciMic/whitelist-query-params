@@ -1,6 +1,7 @@
 {
   "name": "whitelist-query-params",
   "version": "0.0.2",
+  "license": "MIT",
   "author": {
     "name": "Michael Leaney",
     "email": "leaney.michael@gmail.com"
